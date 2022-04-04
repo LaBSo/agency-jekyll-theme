@@ -1,15 +1,14 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Kirkko
+subtitle: Mikael Agricolan kirkko
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: Helsinki_Mikael_Agricola_church.jpg
+thumbnail: Helsinki_Mikael_Agricola_church.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+description: <h3>Vihkiminen</h3> Vihkiminen alkaa kello 13:00<h3>Osoite</h3>Tehtaankatu 23, 00150 Helsinki<h3>Saapuminen ja pysäköinti</h3> Mikael Agricolan kirkolla on pysäköintitilaa hyvin rajoitetusti. Lisää pysäköintitilaa löytyy kadunvarsilta, joiden parkkipaikat ovat maksullisia. Mikael Agricolan kirkolle pääsee hyvin julkisilla kulkuvälineillä, joiden aikataulu- ja reittitiedot löytyvät Helsingin seudun liikenteen <b><a href="https://reittiopas.hsl.fi/etusivu/-/Mikael%20Agricola%20kyrka%2C%20Fabriksgatan%2023%2C%20Helsingfors%3A%3A60.158278%2C24.93877?locale=fi">reittioppaasta.</a></b>
 ---
