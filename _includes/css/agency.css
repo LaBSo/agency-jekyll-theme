@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('https://github.com/LaBSo/agency-jekyll-theme/blob/d2364facc5305a0af33c78ee2bfe64cc9b1b8b6d/img/background.JPG');
+    background-image: url('{{ site.baseurl }}/img/background.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
