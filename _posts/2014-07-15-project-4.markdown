@@ -2,7 +2,7 @@
 title: Lahjat
 subtitle: Jos haluat antaa lahjan
 layout: default
-modal-id: 4
+modal-id: 3
 date: 2014-07-15
 img: gift.jpg
 thumbnail: gift.jpg
