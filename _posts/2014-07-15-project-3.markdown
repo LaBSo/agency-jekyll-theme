@@ -10,6 +10,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Meille paras häälahja on saada juhlia rakkauttamme yhdessä läheisimpien ihmisten kanssa. 
-Mikäli kuitenkin haluatte muistaa meitä jollain tavoin, toivomme että kartutatte häälahjatiliämme, jonka aiomme käyttää seuraavaan yhteiseen seikkailuun FI04 1470 3501 0066 24.
+description: Meille paras häälahja on saada juhlia rakkauttamme yhdessä läheisimpien ihmisten kanssa. Mikäli kuitenkin haluatte muistaa meitä jollain tavoin, toivomme että kartutatte häälahjatiliämme, jonka aiomme käyttää seuraavaan yhteiseen seikkailuun FI04 1470 3501 0066 24.
 ---
