@@ -62,11 +62,19 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #{
+            {
+            site.data.template.color.primary
+        }
+    };
 }
 
 .bg-darkest-gray {
-    background-color: #222;
+    background-color: #{
+            {
+            site.data.template.color.primary
+        }
+    };
 }
 
 .btn-primary {
@@ -74,7 +82,6 @@ h6 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.secondary }};
     font-weight: 700;
-    color: #fff;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -167,12 +174,12 @@ fieldset[disabled] .btn-xl.active {
 
 .btn-xl .badge {
     color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
+    background-color: #fcfaf5;
 }
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #fcfaf5;
 }
 
 .navbar-default .navbar-brand {
@@ -192,12 +199,12 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    border-color: #ecece4;
+    background-color: #ecece4;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #ecece4;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -257,7 +264,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #fcfaf5;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -269,13 +276,13 @@ header {
     text-align: center;
     color: rgb(13, 13, 13);
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/blankbg.png');
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-image: url('{{ site.baseurl }}/img/bg2.png');
+    background-position: center ;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: auto 100%;
+    background-size: auto 100%;
+    -o-background-size: 100% 100%;
 }
 
 header .intro-text {
@@ -338,7 +345,7 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
     font-weight: 400;
 }
@@ -503,7 +510,7 @@ section h3.section-subheading {
 
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 14px;
 }
 
@@ -571,7 +578,7 @@ section h3.section-subheading {
 
     .timeline>li .timeline-image h4 {
         margin-top: 16px;
-        font-size: 13px;
+        font-size: 16px;
         line-height: 18px;
     }
 
@@ -786,7 +793,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
-    font-size: 3em;
+    font-size: 5em;
 }
 
 .portfolio-modal .modal-content p {
@@ -796,7 +803,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
 }
 
