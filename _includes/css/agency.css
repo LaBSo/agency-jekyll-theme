@@ -217,7 +217,11 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #{
+            {
+            site.data.template.color.primary
+        }
+    };
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -231,7 +235,11 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
+    color: #{
+            {
+            site.data.template.color.primary
+        }
+    };
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -279,10 +287,10 @@ header {
     background-image: url('{{ site.baseurl }}/img/bg2.png');
     background-position: center ;
     background-repeat: no-repeat;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: auto 100%;
-    background-size: auto 100%;
-    -o-background-size: 100% 100%;
+    -webkit-background-size:  100% cover;
+    -moz-background-size:  100% cover;
+    background-size:  auto 100% ;
+    -o-background-size:auto 100% ;
 }
 
 header .intro-text {
