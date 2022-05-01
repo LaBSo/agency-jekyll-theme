@@ -287,8 +287,8 @@ header {
     background-image: url('{{ site.baseurl }}/img/bg3.png');
     background-position: center ;
     background-repeat: no-repeat;
-    -webkit-background-size:  100% ;
-    -moz-background-size:  100% ;
+    -webkit-background-size: auto 100% ;
+    -moz-background-size: auto 100% ;
     background-size:  auto 100% ;
     -o-background-size:auto 100% ;
 }
